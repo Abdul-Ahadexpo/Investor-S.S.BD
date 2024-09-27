@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Investor 3 Dashboard</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@^2.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100 font-sans">
+  <!-- Header -->
+  <header class="bg-blue-500 text-white p-4 flex justify-between items-center">
+    <h1 class="text-lg font-medium">Investor: Sagor</h1>
+    <p class="text-lg">Invested: BDT 1,000</p>
+  </header>
+
+  <!-- Main Section -->
+  <div class="p-4 flex flex-col items-center">
+    <!-- Information Cards -->
+    <div class="grid grid-cols-1 gap-4 w-full max-w-md">
+      <div class="bg-white p-4 rounded shadow-md flex justify-between items-center">
+        <span class="text-gray-700">Products Bought</span>
+        <span class="text-lg font-semibold text-blue-600">4</span>
+      </div>
+      <div class="bg-white p-4 rounded shadow-md flex justify-between items-center">
+        <span class="text-gray-700">Products Sold</span>
+        <span class="text-lg font-semibold text-green-600">1</span>
+      </div>
+      <div class="bg-white p-4 rounded shadow-md flex justify-between items-center">
+        <span class="text-gray-700">Wallet Balance</span>
+        <span class="text-lg font-semibold text-yellow-600">BDT 200</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- "Get Money / Withdraw" Button -->
+  <button onclick="window.location.href='https://abdul-ahadexpo.github.io/Submit-Payment/'"
+    class="mt-4 p-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition">
+    Withdraw Money
+  </button>
+</body>
+
+</html>
